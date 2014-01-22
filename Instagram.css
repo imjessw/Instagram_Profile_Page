@@ -30,7 +30,8 @@ background-color:#5786aa;
 }
 .navbar-header {
 	text-align: center;
-	margin-left: 90%;
+	margin-left: 85%;
+	margin-top: -45px;
 	border-right: 1px solid #5786aa;
 	border-left: 1px solid #5786aa; 
 	display:inline;
