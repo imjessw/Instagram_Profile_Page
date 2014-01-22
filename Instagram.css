@@ -1,0 +1,55 @@
+body{
+	background-color: black;
+}
+
+.whole-container{
+	width: 100%;
+}
+
+.tAc{
+	text-align: center !important;
+}
+.navbar{
+	border-color: #5786aa;
+	max-height:44px;
+	background-color: #1c5380;
+	margin-bottom: 0px;
+}
+.nav .dropdown-toggle{
+	color: white !important;
+}
+.nav .dropdown{
+	display: block;
+}
+.navbar-header :hover{
+background-color:#5786aa;
+}
+
+.nav .dropdown .caret{
+	display:none !important;
+}
+.navbar-header {
+	text-align: center;
+	margin-left: 85%;
+	border-right: 1px solid #5786aa;
+	border-left: 1px solid #5786aa;
+	
+}
+
+#profile_link{
+	max-height: 24px !important;
+	max-width: 24px !important;
+	display: block;
+	margin-top: 13px;
+	margin-left: -5px;
+}
+
+.dropdown-toggle {
+padding-bottom: 9px !important;
+padding-top: 0px;
+margin-top: -32px;
+margin-left: 15px;
+margin-right: -5px;
+
+}
+
