@@ -30,9 +30,11 @@ background-color:#5786aa;
 }
 .navbar-header {
 	text-align: center;
-	margin-left: 85%;
+	margin-left: 90%;
 	border-right: 1px solid #5786aa;
-	border-left: 1px solid #5786aa;
+	border-left: 1px solid #5786aa; 
+	display:inline;
+
 	
 }
 
@@ -52,4 +54,25 @@ margin-left: 15px;
 margin-right: -5px;
 
 }
+.top-logo{
+	display: block;
+	height: 100%;
+	width: 100%;
+	margin-left: 50%;
+	margin-right: 0px;
+	margin-top:10px; 
+}
+
+.home-logo{
+	 display:inline-block;
+}
+
+
+
+
+
+
+
+
+
 
