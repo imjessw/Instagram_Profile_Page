@@ -155,6 +155,10 @@ background-color:#5786aa;
 	list-style: none;
 	display:inline-block;
 }
+.picture:hover{
+	height: 400px;
+	width: 400px;
+}
 
 
 
