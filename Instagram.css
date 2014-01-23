@@ -26,9 +26,6 @@ body{
 .nav .dropdown-toggle{
 	color: white !important;
 }
-.nav .dropdown{
-	display: block;
-}
 .navbar-header :hover{
 background-color:#5786aa;
 }
@@ -97,6 +94,7 @@ background-color:#5786aa;
 	display: inline-block;
 	padding-top: 20px;
 	display: inline-block;
+	margin-left: 170px;
 	font-family: 'proxima-nova', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 
 }
@@ -113,7 +111,7 @@ background-color:#5786aa;
 	display: block;
 	margin-top: 10px;
 	border: 1px solid #eeeeee;
-	margin-bottom: 0px;
+	margin-bottom: 0px; 
 }
 .pic-section{
 	display: inline;
@@ -124,14 +122,15 @@ background-color:#5786aa;
 .five-across{
 	display: inline !important;
 	list-style: none;
-	max-width: 
+	display:inline-block;
+	float: left;
 }
 
 .picture{
 	display: inline !important;
 	border: 5px solid white;
-	width: 200px;
-	height: 200px;
+	width: 235px;
+	height: 235px;
 	margin: 15px 5px;
 
 }
@@ -140,7 +139,10 @@ background-color:#5786aa;
 	max-height: 150px;
 	display: inline;
 	border: 5px solid white;
-
+	margin-left: 15px;
+	z-index: 0;
+	top: 60px;
+	left: 97px;
 }
 
 .image-row{
@@ -177,8 +179,7 @@ background-color:#5786aa;
 
 }
 .container{
-	display:inline-block;
-	float: left;
+	
 	
 }
 
