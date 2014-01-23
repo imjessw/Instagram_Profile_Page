@@ -29,18 +29,22 @@ body{
 .navbar-header :hover{
 background-color:#5786aa;
 }
+.home-b :hover{
+	background-color:#5786aa;
+}
 
 .nav .dropdown .caret{
 	display:none !important;
 }
 .navbar-header {
 	text-align: center;
-	margin-left: 85%;
+	margin-left: 86%;
 	margin-top: -45px;
 	border-right: 1px solid #5786aa;
 	border-left: 1px solid #5786aa; 
 	display:inline;
 	max-height: 48px;
+
 
 	
 }
@@ -59,7 +63,9 @@ background-color:#5786aa;
 	margin-top: -32px;
 	margin-left: 15px;
 	margin-right: -5px;
+	background-color: transparent;
 }
+
 
 .top-logo{
 	display: block;
@@ -73,10 +79,10 @@ background-color:#5786aa;
 .home-logo{
 	 display:block;
 	 margin-left: 82%;
-	 max-height: 42px;
-	 margin-top: -25px;
 	 border-left: 1px solid #5786aa; 
 	 padding-left: 8px;
+	 max-height: 44px;
+	 margin-top: -46px;
 }
 
 .profile-pic-main{
@@ -153,9 +159,10 @@ background-color:#5786aa;
 	margin-left: -20px !important;
 }*/
 .all-pics{
-	/*width: 200px;
+	width: 200px;
 	height: 100px;
-	background: black;*/
+	background: black;
+
 	/*I need to add a box at the bottom of 
 	all the pics with a heart and comment box */
 
@@ -186,6 +193,7 @@ background-color:#5786aa;
 .image1{
 
 }
+
 
 
 
