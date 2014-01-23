@@ -126,6 +126,7 @@ background-color:#5786aa;
 	width: 200px;
 	height: 200px;
 	margin: 15px 5px;
+
 }
 .bio-pic{
 	max-width: 150px;
@@ -149,6 +150,10 @@ background-color:#5786aa;
 .date{
 	border-bottom: 2px solid black;
 	min-width: 100%
+}
+.user-stats{
+	list-style: none;
+	display:inline-block;
 }
 
 

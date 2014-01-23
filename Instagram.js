@@ -1,34 +1,25 @@
-$(function() {
+$(function(){
 
 	console.log("HELLLLLOOOOOOO")
+	// rad code but the animation is a bit too much
+		// $(".picture").hover(function(){
+		//     $(this).animate({ width: "500px" });
+		//     $(this).animate({ height: "500px" });
+		// }, function() {
+		//     $(this).animate({ width: "200px" });
+		//     $(this).animate({ height: "200px" });
+		// });
+   // end of rad code I cant use because it it too buggy
 
-	$(".picture").hover(function(){
-	    $(this).animate({ width: "500px" });
-	    $(this).animate({ height: "500px" });
-	}, function() {
-	    $(this).animate({ width: "200px" });
-	    $(this).animate({ height: "200px" });
-	});
-	// $("picture").mouseover(function(){
-	// 	var $("picture")= $(this)
-	// 	$(this).animate({ width: "600px" });
-	// 	}
-	// $("picture").mouseleave(function() {
- //    	$(this).animate({ width: "100px" });
-	// 	});
-	// }
-
-
-
-// 	$("img").hover(function() {
-//     $(this).height(function(i, h) { return h * 3; })
-//            .width(function(i, w) { return w * 3; });
-// }, function() {
-//     $(this).height(function(i, h) {
-//         return h / 3;
-//     }).width(function(i, w) {
-//         return w / 3;
-//     })
+	$(".picture").mouseover(function() {
+	    $(this).height(function(i, h) { return h * 1.2; })
+	           .width(function(i, w) { return w * 1.2; });
+		}, function() {
+	    $(this).height(function(i, h) {
+	        return h / 1.2;
+	    }).width(function(i, w) {
+	        return w / 1.2;
+	})
 	console.log("HELLLLLOOOOOOO 22222")
 });
 
