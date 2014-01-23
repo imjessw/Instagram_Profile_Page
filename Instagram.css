@@ -38,7 +38,7 @@ background-color:#5786aa;
 }
 .navbar-header {
 	text-align: center;
-	margin-left: 86%;
+	margin-left: 85%;
 	margin-top: -45px;
 	border-right: 1px solid #5786aa;
 	border-left: 1px solid #5786aa; 
@@ -78,7 +78,7 @@ background-color:#5786aa;
 
 .home-logo{
 	 display:block;
-	 margin-left: 82%;
+	 margin-left: 81%;
 	 border-left: 1px solid #5786aa; 
 	 padding-left: 8px;
 	 max-height: 44px;
@@ -106,7 +106,7 @@ background-color:#5786aa;
 }
 .bio-section{
 	background-color: #eeeeee;
-	border-bottom: 1px solid #5786aa;
+	border-bottom: 3px solid #5786aa;
 }
 /*
 .stats{
@@ -178,14 +178,15 @@ background-color:#5786aa;
 	display:inline-block;
 }
 .picture:hover{
-	height: 500px;
-	width: 500px;
+	height: 505px;
+	width: 505px;
 	position: absolute;
 	margin:10px;
 
 }
-
-
+.container{
+	padding: 0px;
+}
 
 
 
