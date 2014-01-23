@@ -177,24 +177,14 @@ background-color:#5786aa;
 	list-style: none;
 	display:inline-block;
 }
-/*.picture:hover{
-	height: 400px;
-	width: 400px;
-
-}*/
-.image1:hover{
-	/*position: fixed;*/
-
+.picture:hover{
+	height: 500px;
+	width: 500px;
+	position: absolute;
+	margin:10px;
 
 }
-.container{
-	
-	
-}
 
-.image1{
-
-}
 
 
 
