@@ -129,7 +129,7 @@ background-color:#5786aa;
 .bio-pic{
 	max-width: 150px;
 	max-height: 150px;
-	display: block;
+	display: inline;
 	border: 5px solid white;
 
 }
