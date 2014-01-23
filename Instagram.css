@@ -1,10 +1,10 @@
 body{
-	background-color: black;
+	background-color: #222222;
 }
 
 .whole-container{
 	min-height: 78px;
-	background: white;
+	background: #222222;
 	margin-left: 78px;
 	margin-right: 78px;
 
@@ -84,8 +84,8 @@ background-color:#5786aa;
 .profile-pic-main{
 	background-color: white;
     border:solid 21px #f00; 
-    width:75px;
-    height:95px;
+    width:150px;
+    height:150px;
     display: inline-block;  
     padding-left: 10px; 
     margin-left: 10px;
@@ -96,6 +96,7 @@ background-color:#5786aa;
 	display: inline-block;
 	padding-top: 20px;
 	display: inline-block;
+	font-family: 'proxima-nova', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 
 }
 .bio-section{
@@ -106,6 +107,38 @@ background-color:#5786aa;
 .stats{
 	background-color: #eeeeee;
 
+}
+.pic-section{
+	display: inline;
+	/*max-height: 250px;
+	max-width: 100%;*/
+	/*background-color: red;*/
+}
+.five-across{
+	display: inline !important;
+	list-style: none;
+}
+
+.picture{
+	display: inline !important;
+	border: 5px solid white;
+	width: 200px;
+	height: 200px;
+	margin: 15px 5px;
+}
+.bio-pic{
+	max-width: 150px;
+	max-height: 150px;
+	display: block;
+	border: 5px solid white;
+
+}
+
+.image-row{
+	display:inline;
+}
+#image1{
+	margin-left: -20px;
 }
 
 
