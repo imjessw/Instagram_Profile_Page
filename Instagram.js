@@ -1,36 +1,36 @@
-$(function(){
+// $(function(){
 
-	console.log("HELLLLLOOOOOOO")
-	// rad code but the animation is a bit too much
-		// $(".picture").hover(function(){
-		//     $(this).animate({ width: "500px" });
-		//     $(this).animate({ height: "500px" });
-		// }, function() {
-		//     $(this).animate({ width: "200px" });
-		//     $(this).animate({ height: "200px" });
-		// });
-   // end of rad code I cant use because it it too buggy
+// 	console.log("HELLLLLOOOOOOO")
+// 	// rad code but the animation is a bit too much
+// 		// $(".picture").hover(function(){
+// 		//     $(this).animate({ width: "500px" });
+// 		//     $(this).animate({ height: "500px" });
+// 		// }, function() {
+// 		//     $(this).animate({ width: "200px" });
+// 		//     $(this).animate({ height: "200px" });
+// 		// });
+//    // end of rad code I cant use because it it too buggy
    	
-   	// refactored previous code and it runs alot smoother/ less bouncing
+//    	// refactored previous code and it runs alot smoother/ less bouncing
 
-   	$(".picture").hover(function(){
-		$(this).animate({height: "500px",width: "500px" });
+//    	$(".picture").hover(function(){
+// 		$(this).animate({height: "500px",width: "500px" });
  
-		}, function() {
-		    $(this).animate({ height: "200px", width: "200px" });
-		});
+// 		}, function() {
+// 		    $(this).animate({ height: "200px", width: "200px" });
+// 		});
 
 
-	// changed from .animate to .jqGalScroll
+// 	// changed from .animate to .jqGalScroll
 
-   	 $("#image1").hover(function(){
-   	 	   $("#image1").jqGalScroll({height: "500px",width: "500px" });
-		    $("#image2").jqGalScroll({height: "100px",width: "100px" });
-		    $("#image3").jqGalScroll({height: "100px",width: "100px" });
+//    	 $("#image1").hover(function(){
+//    	 	   $("#image1").jqGalScroll({height: "500px",width: "500px" });
+// 		    $("#image2").jqGalScroll({height: "100px",width: "100px" });
+// 		    $("#image3").jqGalScroll({height: "100px",width: "100px" });
 		 
-		// }, function() {
-		//     $(".picture").jqGalScroll({height: "200px",width: "200px"});
-		});
+// 		// }, function() {
+// 		//     $(".picture").jqGalScroll({height: "200px",width: "200px"});
+// 		});
 
 
 	

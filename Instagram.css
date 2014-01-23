@@ -4,9 +4,10 @@ body{
 
 .whole-container{
 	min-height: 78px;
-	background: #222222;
+	/*background: #222222;*/
 	margin-left: 78px;
 	margin-right: 78px;
+	background-color: rgba(216, 216, 216, 0.5);
 
 }
 
@@ -103,10 +104,16 @@ background-color:#5786aa;
 	background-color: #eeeeee;
 	border-bottom: 1px solid #5786aa;
 }
-
+/*
 .stats{
 	background-color: #eeeeee;
 
+}*/
+.user-stats{
+	display: block;
+	margin-top: 10px;
+	border: 1px solid #eeeeee;
+	margin-bottom: 0px;
 }
 .pic-section{
 	display: inline;
@@ -139,10 +146,14 @@ background-color:#5786aa;
 .image-row{
 	display:inline;
 }
-#image1{
+/*.image1{
+
 	margin-left: -20px !important;
-}
+}*/
 .all-pics{
+	/*width: 200px;
+	height: 100px;
+	background: black;*/
 	/*I need to add a box at the bottom of 
 	all the pics with a heart and comment box */
 
@@ -158,11 +169,23 @@ background-color:#5786aa;
 /*.picture:hover{
 	height: 400px;
 	width: 400px;
+
 }*/
-#image1:hover{
-	position: absolute;
+.image1:hover{
+	/*position: fixed;*/
+
 
 }
+.container{
+	display:inline-block;
+	float: left;
+	
+}
+
+.image1{
+
+}
+
 
 
 
