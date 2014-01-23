@@ -140,6 +140,15 @@ background-color:#5786aa;
 #image1{
 	margin-left: -20px;
 }
+.all-pics{
+	/*I need to add a box at the bottom of 
+	all the pics with a heart and comment box */
+
+}
+.date{
+	border-bottom: 2px solid black;
+	min-width: 100%
+}
 
 
 
