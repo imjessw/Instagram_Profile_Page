@@ -141,14 +141,18 @@ background-color:#5786aa;
 
 }
 .bio-pic{
-	max-width: 150px;
-	max-height: 150px;
-	display: inline;
-	border: 5px solid white;
-	margin-left: 15px;
-	z-index: 0;
-	top: 60px;
-	left: 97px;
+    max-width: 150px;
+    max-height: 150px;
+    display: inline;
+    border: 5px solid white;
+    margin-left: 15px;
+    z-index: 0;
+    top: 60px;
+    left: 97px;
+    position: absolute;
+}
+.row1{
+	margin-top: 25px;
 }
 
 .image-row{
@@ -159,9 +163,7 @@ background-color:#5786aa;
 	margin-left: -20px !important;
 }*/
 .all-pics{
-	width: 200px;
-	height: 100px;
-	background: black;
+	
 
 	/*I need to add a box at the bottom of 
 	all the pics with a heart and comment box */
