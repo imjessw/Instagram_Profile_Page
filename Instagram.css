@@ -140,7 +140,7 @@ background-color:#5786aa;
 	display:inline;
 }
 #image1{
-	margin-left: -20px;
+	margin-left: -20px !important;
 }
 .all-pics{
 	/*I need to add a box at the bottom of 
@@ -155,9 +155,13 @@ background-color:#5786aa;
 	list-style: none;
 	display:inline-block;
 }
-.picture:hover{
+/*.picture:hover{
 	height: 400px;
 	width: 400px;
+}*/
+#image1:hover{
+	position: absolute;
+
 }
 
 
