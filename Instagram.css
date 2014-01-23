@@ -26,7 +26,7 @@ body{
 .nav .dropdown-toggle{
 	color: white !important;
 }
-.navbar-header :hover{
+.navbar-header .dropdown-toggle :hover{
 background-color:#5786aa;
 }
 .home-b :hover{
@@ -43,10 +43,10 @@ background-color:#5786aa;
 	border-right: 1px solid #5786aa;
 	border-left: 1px solid #5786aa; 
 	display:inline;
-	max-height: 48px;
-
-
-	
+	max-height: 48px;	
+}
+.navbar-nav>.open>a:focus{
+	background-color: transparent;
 }
 
 #profile_link{
@@ -63,7 +63,7 @@ background-color:#5786aa;
 	margin-top: -32px;
 	margin-left: 15px;
 	margin-right: -5px;
-	background-color: transparent;
+	
 }
 
 
@@ -188,7 +188,11 @@ background-color:#5786aa;
 	padding: 0px;
 }
 
-
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus{
+	background-color: transparent;
+}
 
 
 
