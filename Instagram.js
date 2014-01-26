@@ -23,10 +23,10 @@
 
 // 	// changed from .animate to .jqGalScroll
 
-//    	 $("#image1").hover(function(){
-//    	 	   $("#image1").jqGalScroll({height: "500px",width: "500px" });
-// 		    $("#image2").jqGalScroll({height: "100px",width: "100px" });
-// 		    $("#image3").jqGalScroll({height: "100px",width: "100px" });
+   	 $("#image1").hover(function(){
+   	 	   $("#image1").jqGalScroll({height: "500px",width: "500px" });
+		    $("#image2").jqGalScroll({height: "100px",width: "100px" });
+		    $("#image3").jqGalScroll({height: "100px",width: "100px" });
 		 
 // 		// }, function() {
 // 		//     $(".picture").jqGalScroll({height: "200px",width: "200px"});
