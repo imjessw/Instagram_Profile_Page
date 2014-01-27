@@ -23,14 +23,25 @@
 
 // 	// changed from .animate to .jqGalScroll
 
-   	 $("#image1").hover(function(){
-   	 	   $("#image1").jqGalScroll({height: "500px",width: "500px" });
-		    $("#image2").jqGalScroll({height: "100px",width: "100px" });
-		    $("#image3").jqGalScroll({height: "100px",width: "100px" });
+   	 // $("#image1").hover(function(){
+   	 // 		console.log("This is a test")
+   	 // 	   $("this").jqGalScroll({height: "500px",width: "500px" });
+		   //  $("#image2").jqGalScroll({height: "100px",width: "100px" });
+		   //  $("#image3").jqGalScroll({height: "100px",width: "100px" });
+		   //  $("#image4").jqGalScroll({height: "100px",width: "100px" });
+		   //  $("#image5").jqGalScroll({height: "100px",width: "100px" });
 		 
 // 		// }, function() {
 // 		//     $(".picture").jqGalScroll({height: "200px",width: "200px"});
 // 		});
+
+   	 // $("#image1").hover(function(){
+   	 // 		console.log("This is a test")
+   	 // 	   $("this").animate({height: "500px",width: "500px" });
+		   //  $("#image2").animate({height: "100px",width: "100px" });
+		   //  $("#image3").animate({height: "100px",width: "100px" });
+		   //  $("#image4").animate({height: "100px",width: "100px" });
+		   //  $("#image5").animate({height: "100px",width: "100px" });
 
 
 	

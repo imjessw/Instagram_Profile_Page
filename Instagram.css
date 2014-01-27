@@ -194,7 +194,9 @@ background-color:#5786aa;
 	background-color: transparent;
 }
 
-
+li .all-pics:after {
+    content: url('/InstagramDummyData/instagram-likes.png');
+}
 
 
 
